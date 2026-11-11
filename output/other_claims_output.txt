@@ -1,0 +1,109 @@
+
+#### Claim 2
+[1] "GAME"   "POSS"   "TEAM"   "TIME"   "PASS"   "RECEP"  "RESULT" "CLOCK" 
+[1] "GAME"     "POSS"     "TEAM"     "TW_from"  "TW_to"    "NETWORK" 
+[7] "GRAPHLET" "RESULT"   "CLOCK"   
+  possessions_in_TW       windows_in_TW article_all_over_6s 
+               1751               26672                1751 
+   article_analysed     article_windows 
+               1535               24908 
+[1] TRUE
+
+2 pts shooting foul V 2 pts shooting foul X          2 pts shot V 
+                  406                  1377                  5232 
+         2 pts shot X 3 pts shooting foul V 3 pts shooting foul X 
+                 5687                    46                   139 
+         3 pts shot V          3 pts shot X        defensive foul 
+                 2585                  4846                  1845 
+       offensive foul              turnover                  <NA> 
+                  591                  2919                   999 
+n_codes_per_possession
+   1 
+1751 
+
+ negative no result  positive 
+      886        68       797 
+
+#### Claim 3
+
+ C PF PG SF 
+23  8 16 49 
+[1] "al effects of role distribution within teams: in the present dataset, there are 16 PG, 21 SG, 28 SF, 8 PF, and 23 C. The replication of the method conducte"
+                
+                 C PF PG SF
+  Argentina      3  1  3  5
+  Australia      2  1  0  9
+  Czech Republic 4  0  3  5
+  France         3  1  2  6
+  Poland         3  2  3  4
+  Serbia         3  2  2  5
+  Spain          2  1  2  7
+  USA            3  0  1  8
+
+#### Claim 5
+           neg   pos
+ball_in  263.1 255.1
+ball_out 501.0 452.1
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  tab_shares
+X-squared = 0.36585, df = 1, p-value = 0.5453
+
+
+	Pearson's Chi-squared test with Yates' continuity correction
+
+data:  tab_totals
+X-squared = 0.34194, df = 1, p-value = 0.5587
+
+
+	Pearson's Chi-squared test
+
+data:  tab_totals
+X-squared = 0.4088, df = 1, p-value = 0.5226
+
+[1] 63
+   chi2 p_printed p_implied
+1 14.34     <.001    0.0002
+2  6.21      .012    0.0127
+3  5.32      .020    0.0211
+4  4.13      .039    0.0421
+5  4.74      .029    0.0295
+6 27.49     <.001    0.0000
+7 12.74     <.001    0.0004
+8  6.68      .009    0.0098
+
+#### Claim 9
+                 passes              receptions passes_without_receiver 
+                   6073                    5923                     150 
+          passes_long without_receiver_long 
+                 5554                   116 
+next_row
+boundary 
+     150 
+possession_result
+  2 pts shot X defensive foul offensive foul       turnover           <NA> 
+             3             12              3            101             31 
+
+#### Claim 10
+             windows    rebuilt_identical            share_pct 
+            26672.00             26515.00                99.41 
+         not_rebuilt possessions_affected 
+              157.00                21.00 
+longer_than_6s    at_least_6s     exactly_6s 
+          1751           1756              5 
+     possessions match_video_time match_shot_clock 
+            1751             1738             1751 
+windows_no_player       possessions 
+              269                42 
+graphlet
+  1 
+269 
+
+#### Pooled entropy by shot clock value (bits)
+  24 23.5   23 22.5   22 21.5   21 20.5   20 19.5   19 18.5   18 17.5   17 
+1.70 1.62 1.68 1.70 1.75 1.88 2.00 2.08 2.19 2.23 2.30 2.35 2.38 2.42 2.41 
+16.5   16 15.5   15 14.5   14 13.5   13 12.5   12 11.5   11 10.5   10  9.5 
+2.41 2.45 2.40 2.42 2.37 2.58 2.41 2.40 2.41 2.38 2.39 2.39 2.34 2.31 2.29 
+   9  8.5    8  7.5    7  6.5    6 
+2.21 2.29 2.32 2.21 2.09 1.89 1.56 

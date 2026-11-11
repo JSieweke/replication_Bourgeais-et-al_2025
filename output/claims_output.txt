@@ -1,0 +1,238 @@
+[C-1    printed_n_ball_in                 ] EXPECTED  7100
+[C-1    printed_n_ball_out                ] EXPECTED  16868
+[C-1    ratio_ball_in                     ] EXPECTED  13.2
+[C-1    ratio_ball_out                    ] EXPECTED  16.9
+[C-1    printed_n_ball_in                 ] OBSERVED  7100  PASS
+[C-1    printed_n_ball_out                ] OBSERVED  16868  PASS
+[C-1    ratio_ball_in                     ] OBSERVED  13.2  PASS
+[C-1    ratio_ball_out                    ] OBSERVED  16.9  PASS
+[C-1    gap_to_24908                      ] EXPECTED  940
+[C-1    windows_without_outcome           ] EXPECTED  999
+[C-1    windows_with_outcome              ] EXPECTED  25673
+[C-1    possessions_with_outcome          ] EXPECTED  1683
+[C-1    window_step_ms                    ] EXPECTED  500
+[C-1    window_length_ms                  ] EXPECTED  6000
+[C-1    gap_to_24908                      ] OBSERVED  940  PASS
+[C-1    windows_without_outcome           ] OBSERVED  999  PASS
+[C-1    windows_with_outcome              ] OBSERVED  25673  PASS
+[C-1    possessions_with_outcome          ] OBSERVED  1683  PASS
+[C-1    window_step_ms                    ] OBSERVED  500  PASS
+[C-1    window_length_ms                  ] OBSERVED  6000  PASS
+[C-1    window_level_significant_cells    ] EXPECTED  5
+[C-1    clustered_significant_cells       ] EXPECTED  0
+[C-1    window_level_significant_cells    ] OBSERVED  5  PASS
+[C-1    clustered_significant_cells       ] OBSERVED  0  PASS
+[C-1    log10_p_pf_centrality_window      ] EXPECTED  -5.05
+[C-1    log10_p_c_betweenness_window      ] EXPECTED  -6.05
+[C-1    log10_p_pf_centrality_window      ] OBSERVED  -5.05238  PASS
+[C-1    log10_p_c_betweenness_window      ] OBSERVED  -6.052224  PASS
+[C-1    perm_p_pf_centrality              ] EXPECTED  0.21
+[C-1    perm_p_pf_centrality              ] OBSERVED  0.2091582  PASS
+[C-1    article_linked_to_performance     ] EXPECTED  1
+[C-1    article_linked_to_performance     ] OBSERVED  1  PASS
+[C-1    printed_tests_parsed              ] EXPECTED  8
+[C-1    holm_survivors_of_40              ] EXPECTED  3
+[C-1    printed_tests_parsed              ] OBSERVED  8  PASS
+[C-1    holm_survivors_of_40              ] OBSERVED  3  PASS
+[C-1    permutation_keeps_at_most_1_of_8  ] EXPECTED  1
+[C-1    permutation_keeps_at_most_1_of_8  ] OBSERVED  1  PASS
+[C-1    perm_p_c_betweenness              ] EXPECTED  0.05
+[C-1    perm_p_c_betweenness              ] OBSERVED  0.05258948  PASS
+[C-2    tw_possessions                    ] EXPECTED  1751
+[C-2    tw_windows                        ] EXPECTED  26672
+[C-2    surplus_possessions               ] EXPECTED  216
+[C-2    surplus_windows                   ] EXPECTED  1764
+[C-2    tw_possessions                    ] OBSERVED  1751  PASS
+[C-2    tw_windows                        ] OBSERVED  26672  PASS
+[C-2    surplus_possessions               ] OBSERVED  216  PASS
+[C-2    surplus_windows                   ] OBSERVED  1764  PASS
+[C-2    type_or_location_columns          ] EXPECTED  0
+[C-2    tw_equals_long_set                ] EXPECTED  1
+[C-2    type_or_location_columns          ] OBSERVED  0  PASS
+[C-2    tw_equals_long_set                ] OBSERVED  1  PASS
+[C-2    positive                          ] EXPECTED  797
+[C-2    negative                          ] EXPECTED  886
+[C-2    unclassified                      ] EXPECTED  68
+[C-2    positive                          ] OBSERVED  797  PASS
+[C-2    negative                          ] OBSERVED  886  PASS
+[C-2    unclassified                      ] OBSERVED  68  PASS
+[C-2    article_start_categories          ] EXPECTED  1
+[C-2    article_offensive_half            ] EXPECTED  1
+[C-2    article_start_categories          ] OBSERVED  1  PASS
+[C-2    article_offensive_half            ] OBSERVED  1  PASS
+[C-2    outcome_class_columns             ] EXPECTED  0
+[C-2    outcome_class_columns             ] OBSERVED  0  PASS
+[C-3    pg                                ] EXPECTED  16
+[C-3    sf                                ] EXPECTED  49
+[C-3    pf                                ] EXPECTED  8
+[C-3    c                                 ] EXPECTED  23
+[C-3    sg                                ] EXPECTED  0
+[C-3    players                           ] EXPECTED  96
+[C-3    pg                                ] OBSERVED  16  PASS
+[C-3    sf                                ] OBSERVED  49  PASS
+[C-3    pf                                ] OBSERVED  8  PASS
+[C-3    c                                 ] OBSERVED  23  PASS
+[C-3    sg                                ] OBSERVED  0  PASS
+[C-3    players                           ] OBSERVED  96  PASS
+[C-3    article_roster_sentence           ] EXPECTED  1
+[C-3    sg_plus_sf                        ] EXPECTED  49
+[C-3    article_roster_sentence           ] OBSERVED  1  PASS
+[C-3    sg_plus_sf                        ] OBSERVED  49  PASS
+[C-4    first_diff_19s                    ] EXPECTED  17
+[C-4    first_diff_18s                    ] EXPECTED  16
+[C-4    first_diff_19s                    ] OBSERVED  17  PASS
+[C-4    first_diff_18s                    ] OBSERVED  16  PASS
+[C-4    stable_start_a05                  ] EXPECTED  16.5
+[C-4    stable_start_a01                  ] EXPECTED  17.5
+[C-4    stable_start_a001                 ] EXPECTED  19
+[C-4    stable_start_a05                  ] OBSERVED  16.5  PASS
+[C-4    stable_start_a01                  ] OBSERVED  17.5  PASS
+[C-4    stable_start_a001                 ] OBSERVED  19  PASS
+[C-4    no_later_block_a05                ] EXPECTED  12
+[C-4    no_later_block_a01                ] EXPECTED  13.5
+[C-4    no_later_block_a001               ] EXPECTED  17.5
+[C-4    no_later_block_a05                ] OBSERVED  12  PASS
+[C-4    no_later_block_a01                ] OBSERVED  13.5  PASS
+[C-4    no_later_block_a001               ] OBSERVED  17.5  PASS
+[C-4    windows_24s                       ] EXPECTED  1503
+[C-4    windows_12s                       ] EXPECTED  438
+[C-4    windows_6s                        ] EXPECTED  24
+[C-4    below_24                          ] EXPECTED  248
+[C-4    at_14                             ] EXPECTED  135
+[C-4    windows_24s                       ] OBSERVED  1503  PASS
+[C-4    windows_12s                       ] OBSERVED  438  PASS
+[C-4    windows_6s                        ] OBSERVED  24  PASS
+[C-4    below_24                          ] OBSERVED  248  PASS
+[C-4    at_14                             ] OBSERVED  135  PASS
+[C-4    entropy_bits_24s                  ] EXPECTED  1.7
+[C-4    entropy_bits_14s                  ] EXPECTED  2.58
+[C-4    entropy_bits_6s                   ] EXPECTED  1.56
+[C-4    entropy_bits_24s                  ] OBSERVED  1.696235  PASS
+[C-4    entropy_bits_14s                  ] OBSERVED  2.575079  PASS
+[C-4    entropy_bits_6s                   ] OBSERVED  1.563625  PASS
+[C-4    article_limited_comparators       ] EXPECTED  1
+[C-4    article_alpha_stated              ] EXPECTED  0
+[C-4    article_limited_comparators       ] OBSERVED  1  PASS
+[C-4    article_alpha_stated              ] OBSERVED  0  PASS
+[C-4    median_share_shared_possessions   ] EXPECTED  0.917
+[C-4    median_share_shared_possessions   ] OBSERVED  0.9172829  PASS
+[C-4    article_boundaries_42             ] EXPECTED  1
+[C-4    article_11s_51                    ] EXPECTED  1
+[C-4    article_boundaries_42             ] OBSERVED  1  PASS
+[C-4    article_11s_51                    ] OBSERVED  1  PASS
+[C-5    chi2_b_corrected                  ] EXPECTED  0.342
+[C-5    p_b_corrected                     ] EXPECTED  0.559
+[C-5    chi2_b_uncorrected                ] EXPECTED  0.409
+[C-5    chi2_a_corrected                  ] EXPECTED  0.366
+[C-5    chi2_a_uncorrected                ] EXPECTED  0.435
+[C-5    chi2_b_corrected                  ] OBSERVED  0.3419444  PASS
+[C-5    p_b_corrected                     ] OBSERVED  0.558709  PASS
+[C-5    chi2_b_uncorrected                ] OBSERVED  0.4088033  PASS
+[C-5    chi2_a_corrected                  ] OBSERVED  0.365847  PASS
+[C-5    chi2_a_uncorrected                ] OBSERVED  0.434916  PASS
+[C-5    positives_reading_a               ] EXPECTED  707
+[C-5    n_reading_a                       ] EXPECTED  1471
+[C-5    ball_out_positive_share_b         ] EXPECTED  45.4
+[C-5    unclassified_possessions          ] EXPECTED  63
+[C-5    positives_reading_a               ] OBSERVED  707  PASS
+[C-5    n_reading_a                       ] OBSERVED  1471  PASS
+[C-5    ball_out_positive_share_b         ] OBSERVED  45.4  PASS
+[C-5    unclassified_possessions          ] OBSERVED  63  PASS
+[C-5    reported_tests                    ] EXPECTED  8
+[C-5    p_below_implied_range             ] EXPECTED  4
+[C-5    reported_tests                    ] OBSERVED  8  PASS
+[C-5    p_below_implied_range             ] OBSERVED  4  PASS
+[C-6    pg_less_involved_greater          ] EXPECTED  1
+[C-6    pf_less_involved_greater          ] EXPECTED  1
+[C-6    pf_intermediate_fc                ] EXPECTED  1
+[C-6    pf_ball_in_fb_or                  ] EXPECTED  1
+[C-6    pg_less_involved_greater          ] OBSERVED  1  PASS
+[C-6    pf_less_involved_greater          ] OBSERVED  1  PASS
+[C-6    pf_intermediate_fc                ] OBSERVED  1  PASS
+[C-6    pf_ball_in_fb_or                  ] OBSERVED  1  PASS
+[C-7    deposited_files                   ] EXPECTED  4
+[C-7    csv_files                         ] EXPECTED  4
+[C-7    code_or_doc_files                 ] EXPECTED  0
+[C-7    deposited_files                   ] OBSERVED  4  PASS
+[C-7    csv_files                         ] OBSERVED  4  PASS
+[C-7    code_or_doc_files                 ] OBSERVED  0  PASS
+[C-7    sci_notation_timecodes            ] EXPECTED  2
+[C-7    clock_na_cells                    ] EXPECTED  48
+[C-7    clock_na_possessions              ] EXPECTED  22
+[C-7    lf_possessions                    ] EXPECTED  11
+[C-7    na_result_possessions             ] EXPECTED  95
+[C-7    lf_in_long                        ] EXPECTED  0
+[C-7    sci_notation_timecodes            ] OBSERVED  2  PASS
+[C-7    clock_na_cells                    ] OBSERVED  48  PASS
+[C-7    clock_na_possessions              ] OBSERVED  22  PASS
+[C-7    lf_possessions                    ] OBSERVED  11  PASS
+[C-7    na_result_possessions             ] OBSERVED  95  PASS
+[C-7    lf_in_long                        ] OBSERVED  0  PASS
+[C-7    graphlet_code_matches_passes      ] EXPECTED  26672
+[C-7    graphlet_code_matches_passes      ] OBSERVED  26672  PASS
+[C-7    article_names_analysis_software   ] EXPECTED  0
+[C-7    article_code_statement            ] EXPECTED  0
+[C-7    article_names_analysis_software   ] OBSERVED  0  PASS
+[C-7    article_code_statement            ] OBSERVED  0  PASS
+[C-7    network_vector_strings            ] EXPECTED  18589
+[C-7    network_bare_values               ] EXPECTED  7814
+[C-7    event_lines_with_literal_na       ] EXPECTED  16422
+[C-7    network_vector_strings            ] OBSERVED  18589  PASS
+[C-7    network_bare_values               ] OBSERVED  7814  PASS
+[C-7    event_lines_with_literal_na       ] OBSERVED  16422  PASS
+[C-8    roster_rows                       ] EXPECTED  96
+[C-8    unique_team_number_keys           ] EXPECTED  96
+[C-8    players_sharing_number_across_teams] EXPECTED  84
+[C-8    players_in_passes                 ] EXPECTED  92
+[C-8    roster_rows                       ] OBSERVED  96  PASS
+[C-8    unique_team_number_keys           ] OBSERVED  96  PASS
+[C-8    players_sharing_number_across_teams] OBSERVED  84  PASS
+[C-8    players_in_passes                 ] OBSERVED  92  PASS
+[C-8    key_cells_event_file              ] EXPECTED  11996
+[C-8    windows_with_keys                 ] EXPECTED  26403
+[C-8    key_cells_event_file              ] OBSERVED  11996  PASS
+[C-8    windows_with_keys                 ] OBSERVED  26403  PASS
+[C-8    article_ethics_or_consent         ] EXPECTED  0
+[C-8    article_anonymisation_claim       ] EXPECTED  0
+[C-8    article_ethics_or_consent         ] OBSERVED  0  PASS
+[C-8    article_anonymisation_claim       ] OBSERVED  0  PASS
+[C-9    pass_rows                         ] EXPECTED  6073
+[C-9    reception_rows                    ] EXPECTED  5923
+[C-9    unreceived                        ] EXPECTED  150
+[C-9    unreceived_long                   ] EXPECTED  116
+[C-9    completed_long                    ] EXPECTED  5438
+[C-9    unreceived_turnover               ] EXPECTED  101
+[C-9    unreceived_made_shot              ] EXPECTED  0
+[C-9    pass_rows                         ] OBSERVED  6073  PASS
+[C-9    reception_rows                    ] OBSERVED  5923  PASS
+[C-9    unreceived                        ] OBSERVED  150  PASS
+[C-9    unreceived_long                   ] OBSERVED  116  PASS
+[C-9    completed_long                    ] OBSERVED  5438  PASS
+[C-9    unreceived_turnover               ] OBSERVED  101  PASS
+[C-9    unreceived_made_shot              ] OBSERVED  0  PASS
+[C-10   long_strict                       ] EXPECTED  1751
+[C-10   long_inclusive                    ] EXPECTED  1756
+[C-10   exactly_6s                        ] EXPECTED  5
+[C-10   long_strict                       ] OBSERVED  1751  PASS
+[C-10   long_inclusive                    ] OBSERVED  1756  PASS
+[C-10   exactly_6s                        ] OBSERVED  5  PASS
+[C-10   counts_match_duration             ] EXPECTED  1738
+[C-10   counts_match_shot_clock           ] EXPECTED  1751
+[C-10   counts_match_duration             ] OBSERVED  1738  PASS
+[C-10   counts_match_shot_clock           ] OBSERVED  1751  PASS
+[C-10   rebuilt_equal                     ] EXPECTED  26515
+[C-10   rebuilt_share                     ] EXPECTED  99.41
+[C-10   differing_possessions             ] EXPECTED  21
+[C-10   rebuilt_equal                     ] OBSERVED  26515  PASS
+[C-10   rebuilt_share                     ] OBSERVED  99.41137  PASS
+[C-10   differing_possessions             ] OBSERVED  21  PASS
+[C-10   na_network_windows                ] EXPECTED  269
+[C-10   na_network_possessions            ] EXPECTED  42
+[C-10   share_of_graphlet1                ] EXPECTED  3.3
+[C-10   na_network_windows                ] OBSERVED  269  PASS
+[C-10   na_network_possessions            ] OBSERVED  42  PASS
+[C-10   share_of_graphlet1                ] OBSERVED  3.327972  PASS
+[C-10   playerless_windows_with_outcome   ] EXPECTED  252
+[C-10   playerless_windows_with_outcome   ] OBSERVED  252  PASS
+
+118 checks, 118 PASS, 0 FAIL
